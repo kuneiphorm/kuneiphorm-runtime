@@ -8,7 +8,7 @@ package org.kuneiphorm.runtime.exception;
  * #getSyntaxMessage()}.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 public abstract class SyntaxException extends Exception {
 

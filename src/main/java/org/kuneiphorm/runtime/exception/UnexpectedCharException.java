@@ -4,7 +4,7 @@ package org.kuneiphorm.runtime.exception;
  * Thrown when a specific character was expected but a different one was found.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 public class UnexpectedCharException extends SyntaxException {
 

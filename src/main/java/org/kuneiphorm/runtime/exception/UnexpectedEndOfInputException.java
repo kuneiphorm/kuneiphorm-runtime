@@ -4,7 +4,7 @@ package org.kuneiphorm.runtime.exception;
  * Thrown when more input was expected but the end of the stream was reached.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 public class UnexpectedEndOfInputException extends SyntaxException {
 

@@ -14,7 +14,7 @@ import org.kuneiphorm.runtime.tokenflow.TokenFlow;
  * @param <L> the token label type
  * @param <R> the result type produced by the parser
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 @FunctionalInterface
 public interface Parser<L, R> {

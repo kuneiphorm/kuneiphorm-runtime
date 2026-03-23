@@ -14,7 +14,7 @@ import org.kuneiphorm.runtime.exception.SyntaxException;
  *
  * @param <L> the label type used to classify tokens
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 @FunctionalInterface
 public interface Tokenizer<L> {

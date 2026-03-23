@@ -9,7 +9,7 @@ import org.kuneiphorm.runtime.exception.UnexpectedEndOfInputException;
  * Utility methods for common {@link CharFlow} scanning patterns.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 public class CharFlowUtils {
 

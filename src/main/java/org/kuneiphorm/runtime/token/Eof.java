@@ -9,6 +9,6 @@ package org.kuneiphorm.runtime.token;
  * @param line the line at which EOF was reached (0-based)
  * @param column the column at which EOF was reached (0-based)
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 public record Eof<L>(int line, int column) implements TokenResult<L> {}

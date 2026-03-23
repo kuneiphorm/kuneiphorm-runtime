@@ -9,7 +9,7 @@ import org.kuneiphorm.runtime.tokenflow.TokenFlow;
  *
  * <p>Symmetric with {@link org.kuneiphorm.runtime.token.Tokenizer}: where a tokenizer converts
  * characters into tokens, a parser converts tokens into a structured result. The interface is
- * algorithm-agnostic — each parser algorithm module provides its own implementation.
+ * algorithm-agnostic -- each parser algorithm module provides its own implementation.
  *
  * @param <L> the token label type
  * @param <R> the result type produced by the parser

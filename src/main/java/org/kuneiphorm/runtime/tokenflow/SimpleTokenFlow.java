@@ -16,8 +16,8 @@ import org.kuneiphorm.runtime.token.Tokenizer;
  *
  * <p>The tokenizer is called only when the underlying character flow has more characters. When the
  * flow is exhausted, {@link SimpleTokenFlow} produces an {@link Eof} automatically. This design
- * relies on the contract that the tokenizer must never skip characters — every character belongs to
- * exactly one token, so {@link CharFlow#hasMore()} is a reliable signal for EOF.
+ * relies on the contract that the tokenizer must never skip characters -- every character belongs
+ * to exactly one token, so {@link CharFlow#hasMore()} is a reliable signal for EOF.
  *
  * @param <L> the label type used to classify tokens
  * @author Florent Guille

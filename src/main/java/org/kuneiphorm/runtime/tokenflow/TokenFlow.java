@@ -10,8 +10,8 @@ import org.kuneiphorm.runtime.token.TokenResult;
 /**
  * A read-only view of a token stream with single-token lookahead.
  *
- * <p>Implementations produce {@link TokenResult} instances — either a {@link Token} or an {@link
- * org.kuneiphorm.runtime.token.Eof} — and allow consumers to peek ahead without consuming.
+ * <p>Implementations produce {@link TokenResult} instances -- either a {@link Token} or an {@link
+ * org.kuneiphorm.runtime.token.Eof} -- and allow consumers to peek ahead without consuming.
  *
  * @param <L> the label type used to classify tokens
  * @author Florent Guille

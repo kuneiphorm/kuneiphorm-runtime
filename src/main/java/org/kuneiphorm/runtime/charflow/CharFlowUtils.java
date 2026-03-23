@@ -37,8 +37,8 @@ public class CharFlowUtils {
    * <p>Supports two comment forms:
    *
    * <ul>
-   *   <li>{@code //} — skips to the end of the current line (the newline itself is not consumed)
-   *   <li>{@code /* … *}{@code /} — skips until the closing {@code *}{@code /}, inclusive
+   *   <li>{@code //} -- skips to the end of the current line (the newline itself is not consumed)
+   *   <li>{@code /* … *}{@code /} -- skips until the closing {@code *}{@code /}, inclusive
    * </ul>
    *
    * <p><b>Note:</b> if the next character is {@code /} but is not followed by {@code /} or {@code

@@ -138,10 +138,10 @@ class CharFlowTest {
   @Test
   void next_multipleCharsTrackPosition() throws Exception {
     var f = flow("ab\ncd");
-    f.next(); // a — col 1
-    f.next(); // b — col 2
-    f.next(); // \n — line 1, col 0
-    f.next(); // c — col 1
+    f.next(); // a -- col 1
+    f.next(); // b -- col 2
+    f.next(); // \n -- line 1, col 0
+    f.next(); // c -- col 1
     assertEquals(1, f.getLine());
     assertEquals(1, f.getColumn());
   }

@@ -1,3 +1,8 @@
+[![CI](https://img.shields.io/github/actions/workflow/status/kuneiphorm/kuneiphorm-runtime/ci.yml?branch=master&label=CI)](https://github.com/kuneiphorm/kuneiphorm-runtime/actions)
+[![kuneiphorm-runtime](https://img.shields.io/github/v/release/kuneiphorm/kuneiphorm-runtime?include_prereleases&label=kuneiphorm-runtime)](https://github.com/kuneiphorm/kuneiphorm-runtime/releases)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue)
+![Java](https://img.shields.io/badge/Java-21-blue)
+
 # kuneiphorm-runtime
 
 Core runtime primitives for kuneiphorm-generated and interpreted lexers and parsers.

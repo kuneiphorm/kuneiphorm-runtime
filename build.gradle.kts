@@ -9,10 +9,3 @@ plugins {
 repositories {
     mavenCentral()
 }
-
-dependencies {
-}
-
-tasks.named<Test>("test") {
-    useJUnitPlatform()
-}
